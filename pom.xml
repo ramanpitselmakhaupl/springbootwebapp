@@ -14,9 +14,6 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		  <configuration>
-                    <executable>true</executable>
-                  </configuration>
 		<version>2.2.2.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
@@ -72,6 +69,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				  <configuration>
+                                       <executable>true</executable>
+                                  </configuration>
 			</plugin>
 		</plugins>
 	</build>
